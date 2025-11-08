@@ -22,5 +22,5 @@ Then visit: http://localhost:8000/docs
 ## Project Structure
 See `RepoStructure.txt` for the intended layout.
 
-## License
-MIT (adjust as needed)
+<!-- ## License
+MIT (adjust as needed) -->
