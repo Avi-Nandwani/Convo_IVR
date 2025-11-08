@@ -1,0 +1,26 @@
+{
+  "flow_id": "faq-v1",
+  "name": "Simple FAQ flow",
+  "description": "Small flow to demo account balance and agent escalation.",
+  "nodes": [
+    {
+      "id": "start",
+      "type": "ask",
+      "text": "Welcome to Acme Corp. Say 'balance' for account balance or 'support' to talk to an agent."
+    },
+    {
+      "id": "account",
+      "type": "action",
+      "intent": "account_balance",
+      "reply": "Your current balance is ₹3,420."
+    },
+    {
+      "id": "support",
+      "type": "action",
+      "intent": "connect_agent",
+      "reply": "Connecting you to an agent now.",
+      "escalate": true
+    }
+  ],
+  "updated_at": "2025-11-07T00:00:00Z"
+}

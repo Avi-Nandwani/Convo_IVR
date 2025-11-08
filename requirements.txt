@@ -1,0 +1,25 @@
+# fastapi==0.115.5
+# uvicorn[standard]==0.32.0
+# pydantic==2.9.2
+# httpx==0.27.2
+# SQLAlchemy==2.0.36
+# python-dotenv==1.0.1
+# aioredis==2.0.1
+
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+databases
+aiosqlite
+redis
+httpx
+python-dotenv
+requests
+pytest
+
+# Optional (only if you want these features now; you can install later too)
+# openai
+# whisper
+# faster-whisper
+# pyttsx3

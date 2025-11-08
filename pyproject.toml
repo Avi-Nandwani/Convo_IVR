@@ -1,0 +1,22 @@
+[project]
+name = "conversational-ivr-poc"
+version = "0.1.0"
+description = "Proof of concept conversational IVR built on FastAPI"
+authors = [ { name = "Your Name", email = "you@example.com" } ]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi==0.115.5",
+  "uvicorn[standard]==0.32.0",
+  "pydantic==2.9.2",
+  "httpx==0.27.2",
+  "SQLAlchemy==2.0.36",
+  "python-dotenv==1.0.1",
+  "aioredis==2.0.1"
+]
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
